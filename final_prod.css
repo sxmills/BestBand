@@ -1,0 +1,48 @@
+body {background-color: #3F3FBF;}
+
+p
+{
+	font-size: 16px;
+	font-family: "MS Gothic";
+	color: #3FBF3F;
+	border-radius: 8px;
+	border: 4px solid #3FBF3F;
+	padding: 4px;
+	margin: 2px;
+	background-color: #BF3F3F;
+}
+
+table:nth-child(2)
+{
+	background-color: #FFFFFF;
+	border-radius: 8px;
+	border: 4px solid #3FBF3F;
+	padding: 4px;
+	margin: 2px auto;
+}
+
+.wood
+{
+	border: 2px solid #BF3F3F;
+	font-size: 16px;
+	font-family: "MS Gothic";
+	font-weight: bold;
+}
+
+.bras
+{
+	border: 2px solid #3FBF3F;
+	font-size: 16px;
+	font-family: "MS Gothic";
+	font-weight: bold;
+}
+
+.perc
+{
+	border: 2px solid #3F3FBF;
+	font-size: 16px;
+	font-family: "MS Gothic";
+	font-weight: bold;
+}
+
+

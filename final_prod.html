@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Best Band in the Land</title>
+		<link rel = "stylesheet" type = "text/css" href = "final_prod.css">
+		<script>
+			function update(id)
+			{
+				document.getElementById(id).innerHTML = total;
+			}
+			var total = 0;
+			function cart(price, id)
+			{
+				total += price;
+				update(id);
+			}
+			
+		</script>
+	</head>
+	<body>
+		<div style = "margin: auto; text-align: center">
+			<table align = "center">
+				<tr>
+					<td>
+						<p style = "font-family: Century; font-size: 64px">Best Band in the Land</p>
+						</br></br>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Feel free to browse our vast selction of marching instruments, guaranteed to consist of the highest quality material and engineering.</p>
+						<br/><br/>
+					</td>
+				</tr>
+			</table>
+			<table align = "center">
+				<tr>
+					<td colspan = "5" class = "wood">Woodwind Instruments</td>
+				</tr>
+				<tr>
+					<td class = "wood">Piccolo</td>
+					<td class = "wood">Flute</td>
+					<td class = "wood">Clarinet</td>
+					<td class = "wood">Alto Saxophone</td>
+					<td class = "wood">Tenor Saxophone</td>
+				</tr>
+				<tr>
+					<td class = "wood"><img width = "200" src = "I+love+piccolo+_e50537e495ed1e7fb21df8605908e562.png" /></td>
+					<td class = "wood"><img width = "200" src = "flute.png" /></td>
+					<td class = "wood"><img width = "200" src = "clarinet-no-background1.png" /></td>
+					<td class = "wood"><img width = "200" src = "alto-saxophone-buffet-bc8401-1.png" /></td>
+					<td class = "wood"><img width = "200" src = "tenor-saxophone-buffet-bc8102.png" /></td>
+				</tr>
+				<tr>
+					<td class = "wood">$750.00</td>
+					<td class = "wood">$1000.00</td>
+					<td class = "wood">$1250.00</td>
+					<td class = "wood">$1500.00</td>
+					<td class = "wood">$1750.00</td>
+				</tr>
+				<tr>
+					<td class = "wood"><button onclick = "cart(750)">Add to Cart</button></td>
+					<td class = "wood"><button onclick = "cart(1000)">Add to Cart</button></td>
+					<td class = "wood"><button onclick = "cart(1250)">Add to Cart</button></td>
+					<td class = "wood"><button onclick = "cart(1500)">Add to Cart</button></td>
+					<td class = "wood"><button onclick = "cart(1750)">Add to Cart</button></td>
+				</tr>
+				<tr>
+					<td colspan = "5" class = "bras">Brass Instruments</td>
+				</tr>
+				<tr>
+					<td class = "bras">Trumpet</td>
+					<td class = "bras">Mellophone</td>
+					<td class = "bras">Trombone</td>
+					<td class = "bras">Euphonium</td>
+					<td class = "bras">Sousaphone</td>
+				</tr>
+				<tr>
+					<td class = "bras"><img width = "200" src = "JP_1100L_q_14.png" /></td>
+					<td class = "bras"><img width = "200" src = "King Mellophone Ultimate 1121 SP.jpg.png" /></td>
+					<td class = "bras"><img width = "200" src = "Screen-Shot-2013-03-27-at-12.29.07-PM.png" /></td>
+					<td class = "bras"><img width = "200" src = "NA380large.png" /></td>
+					<td class = "bras"><img width = "200" src = "bb436051290d54610876144d45e35a9b_f1916.png" /></td>
+				</tr>
+				<tr>
+					<td class = "bras">$750.00</td>
+					<td class = "bras">$1000.00</td>
+					<td class = "bras">$1250.00</td>
+					<td class = "bras">$1500.00</td>
+					<td class = "bras">$1750.00</td>
+				</tr>
+				<tr>
+					<td class = "bras"><button onclick = "cart(750)">Add to Cart</button></td>
+					<td class = "bras"><button onclick = "cart(1000)">Add to Cart</button></td>
+					<td class = "bras"><button onclick = "cart(1250)">Add to Cart</button></td>
+					<td class = "bras"><button onclick = "cart(1500)">Add to Cart</button></td>
+					<td class = "bras"><button onclick = "cart(1750)">Add to Cart</button></td>
+				</tr>
+				<tr>
+					<td colspan = "5" class = "perc">Percussion Instruments</td>
+				</tr>
+				<tr>
+					<td class = "perc">Snare Drum</td>
+					<td class = "perc">Multi-Tenor Drum</td>
+					<td class = "perc">Tenor Drum</td>
+					<td class = "perc">Tonal Bass Drum</td>
+					<td class = "perc">Crash Cymbals</td>
+				</tr>
+				<tr>
+					<td class = "perc"><img width = "200" src = "pearl_championship_series_carbonply_snare_drum_1.png" /></td>
+					<td class = "perc"><img width = "200" src = "Pearl-PMTCC680234A368.jpg" /></td>
+					<td class = "perc"><img width = "200" src = "H11598000001000-00-500x500.jpg" /></td>
+					<td class = "perc"><img width = "200" src = "pearl-marching-bass-drums.jpg" /></td>
+					<td class = "perc"><img width = "200" src = "21822-18-inch-aa-marching-band_full.png" /></td>
+				</tr>
+				<tr>
+					<td class = "perc">$750.00</td>
+					<td class = "perc">$1000.00</td>
+					<td class = "perc">$1250.00</td>
+					<td class = "perc">$1500.00</td>
+					<td class = "perc">$1750.00</td>
+				</tr>
+				<tr>
+					<td class = "perc"><button onclick = "cart(750, subtotal)">Add to Cart</button></td>
+					<td class = "perc"><button onclick = "cart(1000, subtotal)">Add to Cart</button></td>
+					<td class = "perc"><button onclick = "cart(1250, subtotal)">Add to Cart</button></td>
+					<td class = "perc"><button onclick = "cart(1500, subtotal)">Add to Cart</button></td>
+					<td class = "perc"><button onclick = "cart(1750, subtotal)">Add to Cart</button></td>
+				</tr>
+			</table>
+			<table align = "center">
+				<tr>
+					<td>
+						<a href = "final.html" style = "text-decoration: none"><p>Back to Home</p></a>
+					</td>
+					<td>
+						<p>Subtotal: $</p>
+						<p id = "subtotal"></p>
+						<p>.00</p>
+					</td>
+					<td>
+						<a href = "final_check.html" style = "text-decoration: none"><p>View Cart & Check Out</p></a>
+					</td>
+				</tr>
+			</table>
+			<table align = "center">
+				<tr>
+					<td style = "width: 384px">
+						</br></br>
+						<p>4096 16th Avenue SE, Washington, D.C. 20032</p>
+					</td>
+				</tr>
+			</table>
+			<table align = "center">
+				<tr>
+					<td style = "width: 384px">
+						</br></br>
+						<p>Copyright &#x00A9 Salamahn XMills</p>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

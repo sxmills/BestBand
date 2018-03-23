@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Best Band in the Land</title>
+		<link rel = "stylesheet" type = "text/css" href = "final_check.css">
+		<script>
+			function confirm()
+			{
+				var win = confirm("Are you sure you want to place this order?");
+				if (win == true)
+				{
+					var ok = alert("Thank you for shopping with us!");
+					if (ok == true)
+					{
+						document.getElementByID("form_0").submit();
+						location.href = "final.html";
+					}									
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div style = "margin: auto; text-align: center">
+			<table align = "center">
+				<tr>
+					<td>
+						<p style = "font-family: Century; font-size: 64px">Best Band in the Land</p>
+						</br></br>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Welcome to Best Band in the Land! In this store you can find the highest quality marching band instruments around. Any band equipped with these superb sounding and pristine looking instruments will be able to without a doubt, call themselves the Best Band in the Land!</p>
+						</br></br>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<form name = "form_0" id = "form_0" method = "GET">
+			<div style = "margin: auto; text-align: center">
+				<table id = "table_0">
+					<tr>
+						<td>
+							<p>First name<br><input type = "text" name = "first_name" form = "form_0"></p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>Middle name<br><input type = "text" name = "middle_name" form = "form_0"></p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>Last name<br><input type = "text" name = "last_name" form = "form_0"></p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>Address Line 1<br><input type = "text" name = "address_1" form = "form_0"></p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>Address Line 2<br><input type = "text" name = "address_2" form = "form_0"></p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>City<br><input type = "text" name = "city" form = "form_0"></p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>State<br>
+								<select name = "state" form = "form_0">
+									<option value = "dc" selected>DC</option>
+									<option value = "md">MD</option>
+									<option value = "va">VA</option>
+								</select>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>ZIP<br><input type = "text" name = "zip" form = "form_0"></p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>Card Number<br><input type = "text" name = "card" form = "form_0"></p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>Card Type<br>
+								<select name = "state" form = "form_0">
+									<option value = "amex" selected>American Express</option>
+									<option value = "discovery">Discovery</option>
+									<option value = "mastercard">Mastercard</option>
+									<option value = "visa">Visa</option>
+								</select>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>CVC<br><input type = "text" name = "cvc" form = "form_0"></p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<button onclick = "confirm()">Place Order</button>
+						</td>
+					</tr>
+				</table>
+				<table align = "center">
+				<tr>
+					<td style = "width: 384px">
+						</br></br>
+						<p>4096 16th Avenue SE, Washington, D.C. 20032</p>
+					</td>
+				</tr>
+			</table>
+			<table align = "center">
+				<tr>
+					<td style = "width: 384px">
+						</br></br>
+						<p>Copyright &#x00A9 Salamahn XMills</p>
+					</td>
+				</tr>
+			</table>
+			</div>
+		</form>
+	</body>
+</html>
